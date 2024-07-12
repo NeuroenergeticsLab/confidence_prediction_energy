@@ -1,0 +1,30 @@
+Parameter,Coefficient,SE,CI,CI_low,CI_high,t,df_error,p,Effects,p_fdr,ParameterLabel,ParameterGroup
+(Intercept),138.3969286,3.767192782,0.95,131.0131699,145.7806873,36.73741605,45475,3.45E-291,fixed,1.00E-289,Intercept,Intercept
+networkControl,10.96632593,1.513936083,0.95,7.998986756,13.93366511,7.243585812,45475,4.44E-13,fixed,3.22E-12,network[Control],Network (ref: Visual)
+networkDefaultMode,8.311806333,1.325242925,0.95,5.714308795,10.90930387,6.271911495,45475,3.60E-10,fixed,2.09E-09,network[DMN],Network (ref: Visual)
+networkDorsAttn,0.659517244,1.555942705,0.95,-2.390155591,3.709190079,0.423869877,45475,0.671662718,fixed,0.695650672,network[DorsAttn],Network (ref: Visual)
+networkSalVentAttn,-17.52420643,1.546647492,0.95,-20.55566049,-14.49275236,-11.33044635,45475,1.02E-29,fixed,1.47E-28,network[Salience],Network (ref: Visual)
+networkSomatoMotor,-11.18404242,1.365619882,0.95,-13.86067945,-8.507405398,-8.189718511,45475,2.69E-16,fixed,2.60E-15,network[SomMot],Network (ref: Visual)
+conditionsurprising,-4.354480377,2.365004184,0.95,-8.989926778,0.280966024,-1.841214661,45475,0.065596617,fixed,0.146330915,condition[surprising],Condition (ref: Predictable)
+conditionunpredictable,-5.067172692,3.249006824,0.95,-11.43527855,1.300933162,-1.559606663,45475,0.11885982,fixed,0.191496376,condition[unpredictable],Condition (ref: Predictable)
+conditionsurprising:networkControl,-2.485669669,1.764117172,0.95,-5.943367822,0.972028483,-1.409016197,45475,0.158837216,fixed,0.230313964,condition[S]:network[Control],Condition (ref: Predictable)
+conditionunpredictable:networkControl,6.925131658,2.461817067,0.95,2.099930442,11.75033287,2.813016349,45475,0.00491002,fixed,0.014239057,condition[U]:network[Control],Condition (ref: Predictable)
+conditionsurprising:networkDefaultMode,-2.273702067,1.543982181,0.95,-5.299932081,0.752527947,-1.472621961,45475,0.140859921,fixed,0.214996721,condition[S]:network[DMN],Condition (ref: Predictable)
+conditionunpredictable:networkDefaultMode,1.057098645,2.1549371,0.95,-3.166612879,5.280810169,0.490547332,45475,0.623749012,fixed,0.695650672,condition[U]:network[DMN],Condition (ref: Predictable)
+conditionsurprising:networkDorsAttn,-2.342683774,1.813108692,0.95,-5.896406096,1.211038548,-1.292081266,45475,0.196335569,fixed,0.271130071,condition[S]:network[DorsAttn],Condition (ref: Predictable)
+conditionunpredictable:networkDorsAttn,-2.912466425,2.529984972,0.95,-7.871277834,2.046344985,-1.151179338,45475,0.249664516,fixed,0.31479439,condition[U]:network[DorsAttn],Condition (ref: Predictable)
+conditionsurprising:networkSalVentAttn,-0.805290351,1.802611631,0.95,-4.338438263,2.727857561,-0.446735357,45475,0.655068277,fixed,0.695650672,condition[S]:network[Salience],Condition (ref: Predictable)
+conditionunpredictable:networkSalVentAttn,4.345518459,2.514825922,0.95,-0.583580969,9.274617887,1.727959944,45475,0.084002195,fixed,0.174004547,condition[U]:network[Salience],Condition (ref: Predictable)
+conditionsurprising:networkSomatoMotor,-0.961174363,1.591481492,0.95,-4.080503793,2.158155068,-0.603949444,45475,0.545880267,fixed,0.63322111,condition[S]:network[SomMot],Condition (ref: Predictable)
+conditionunpredictable:networkSomatoMotor,2.310352311,2.220706756,0.95,-2.0422688,6.662973422,1.040368029,45475,0.29817448,fixed,0.360294164,condition[U]:network[SomMot],Condition (ref: Predictable)
+confidence_z,-6.162563527,2.103984131,0.95,-10.28640641,-2.038720647,-2.928997152,45475,0.003402263,fixed,0.010962848,confidence,Behavioral: Confidence
+conditionsurprising:confidence_z,6.586566957,2.028813458,0.95,2.610059809,10.5630741,3.246511862,45475,0.001169131,fixed,0.004238101,confidence:condition[S],Behavioral: Confidence
+conditionunpredictable:confidence_z,4.965878802,3.16044972,0.95,-1.228653699,11.1604113,1.571257018,45475,0.116129918,fixed,0.191496376,confidence:condition[U],Behavioral: Confidence
+confidence_z:networkControl,4.937427383,1.091879382,0.95,2.797326159,7.077528608,4.521953127,45475,6.14E-06,fixed,2.97E-05,confidence:network[Control],Behavioral: Confidence
+confidence_z:networkDefaultMode,1.201182316,0.956195506,0.95,-0.672976322,3.075340953,1.256209957,45475,0.209046311,fixed,0.275561046,confidence:network[DMN],Behavioral: Confidence
+confidence_z:networkDorsAttn,-1.771723472,1.123367858,0.95,-3.973542619,0.430095674,-1.577153432,45475,0.114767181,fixed,0.191496376,confidence:network[DorsAttn],Behavioral: Confidence
+confidence_z:networkSalVentAttn,2.775179127,1.116652649,0.95,0.586521898,4.963836356,2.485266237,45475,0.012949024,fixed,0.034138336,confidence:network[Salience],Behavioral: Confidence
+confidence_z:networkSomatoMotor,1.612929247,0.986183255,0.95,-0.320005862,3.545864357,1.635526905,45475,0.10194556,fixed,0.191496376,confidence:network[SomMot],Behavioral: Confidence
+reaction_time_z,-5.709120413,1.481546053,0.95,-8.612974608,-2.805266218,-3.853488321,45475,0.000116607,fixed,0.000483085,reaction time,Behavioral: Reaction time
+conditionsurprising:reaction_time_z,-0.616315426,1.614200901,0.95,-3.780175266,2.547544413,-0.381808377,45475,0.702605289,fixed,0.702605289,reaction time:condition[S],Behavioral: Reaction time
+conditionunpredictable:reaction_time_z,3.692172058,1.512112458,0.95,0.728407216,6.6559369,2.441731128,45475,0.014620812,fixed,0.035333629,reaction time:condition[U],Behavioral: Reaction time
